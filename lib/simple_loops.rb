@@ -17,7 +17,7 @@ def output_array (array)
   counter = 0
 
   while counter < array.length do
-    puts array [counter]
+    puts array[counter]
     counter += 1
   end
 end
@@ -25,7 +25,7 @@ end
 def return_string_array (array)
   counter = 0
   while counter < array.length do
-    array.to_s
+    array[counter].to_s
     count +=1
   end
 end
